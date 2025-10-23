@@ -9,6 +9,9 @@ return {
       lightbulb = {
         enable = false,
       },
+      symbol_in_winbar = {
+        enable = false,
+      },
     }
 
     keymap('n', '[d', '<cmd>Lspsaga diagnostic_jump_prev<cr>')
