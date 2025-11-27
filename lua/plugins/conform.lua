@@ -19,7 +19,7 @@ return {
         markdown = { 'prettierd' },
       },
       format_on_save = {
-        pattern = '.lua,*.css,*.html,*.json,*.yaml,*.md,*.c,*.cpp, *.rs',
+        pattern = '.lua,*.css,*.html,*.json,*.yaml,*.md,*.c,*.cpp,*.rs',
         timeout_ms = 500,
         async = false,
         lsp_fallback = true,
