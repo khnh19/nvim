@@ -21,10 +21,15 @@ return {
       capabilities = capabilities,
     })
 
+    vim.lsp.config('tinymist', {
+      capabilities = capabilities,
+    })
+
     vim.lsp.enable {
       'lua_ls',
       'clangd',
       'pyright',
+      'tinymist',
     }
   end,
 }

@@ -12,6 +12,7 @@ return {
         'stylua',
         'clang-format',
         'ruff',
+        'tinymist',
       },
     }
   end,

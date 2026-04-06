@@ -8,6 +8,7 @@ return {
       'python',
       'c',
       'cpp',
+      'typst',
     },
 
     auto_install = true,
